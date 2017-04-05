@@ -1,8 +1,11 @@
 package sci.koifish;
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemModelMesher;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import sci.koifish.init.ModBlocks;
 
 public class ClientProxy extends CommonProxy {
 
@@ -16,6 +19,10 @@ public class ClientProxy extends CommonProxy {
 	public void init(FMLInitializationEvent event) {
 		
 		super.init(event);
+		
+		ItemModelMesher mesher = Minecraft.getMinecraft().getRenderItem().getItemModelMesher();
+		
+		ModBlocks.initClient(mesher);
 	}
 	
 	@Override
