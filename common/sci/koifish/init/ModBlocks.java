@@ -23,7 +23,7 @@ public class ModBlocks {
 	public static void init() {
 		
 		ResourceLocation location = new ResourceLocation(KoiFish.MOD_ID, Names.EMPATHY_ORE);
-		empathyBlock = new BlockEmpathyOre();
+		empathyBlock = new BlockEmpathyOre(ModItems.empathy, null);
 		empathyBlock.setRegistryName(location);
 		GameRegistry.register(empathyBlock);
 		GameRegistry.register(new ItemBlock(empathyBlock), location);
