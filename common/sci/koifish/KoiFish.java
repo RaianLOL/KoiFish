@@ -24,7 +24,7 @@ public class KoiFish {
 	@Instance(MOD_ID)
 	public static KoiFish instance;
 	
-	@SidedProxy(clientSide = "main.java.com.sci.koifish.ClientProxy", serverSide = "main.java.com.sci.koifish.CommonProxy")
+	@SidedProxy(clientSide = "sci.koifish.ClientProxy", serverSide = "sci.koifish.CommonProxy")
 	public static CommonProxy proxy;
 	
 	@EventHandler

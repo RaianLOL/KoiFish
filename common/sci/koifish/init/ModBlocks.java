@@ -1,24 +1,42 @@
 package sci.koifish.init;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.ItemModelMesher;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.common.registry.IForgeRegistryEntry;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+import sci.koifish.KoiFish;
 import sci.koifish.block.BlockEmpathyOre;
+import sci.koifish.lib.Names;
 
 public class ModBlocks {
 	
-	public static Block empathy_block;
+	public static BlockEmpathyOre empathyBlock;
 
 	public static void init() {
 		
-		empathy_block = new BlockEmpathyOre().setUnlocalizedName("empathy_block");
-		
+		ResourceLocation location = new ResourceLocation(KoiFish.MOD_ID, Names.EMPATHY_ORE);
+		empathyBlock = new BlockEmpathyOre();
+		empathyBlock.setRegistryName(location);
+		GameRegistry.register(empathyBlock);
+		GameRegistry.register(new ItemBlock(empathyBlock), location);
 	}
 	
-	public static void register() {
+	@SideOnly(Side.CLIENT)
+	public static void initClient(ItemModelMesher mesher) {
 		
-		GameRegistry.register(empathy_block);
-		
+		Item item = Item.getItemFromBlock(empathyBlock);
+		ModelResourceLocation model = new ModelResourceLocation(KoiFish.RESOURCE_PREFIX + Names.EMPATHY_ORE, "inventory");
+		ModelLoader.registerItemVariants(item, model);
+		mesher.register(item, 0, model);
 	}
+	
+
 }
