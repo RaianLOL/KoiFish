@@ -1,12 +1,12 @@
-package sci.koifish;
+package net.sci.koifish;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ItemModelMesher;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import sci.koifish.init.ModBlocks;
-import sci.koifish.init.ModItems;
+import net.sci.koifish.init.ModBlocks;
+import net.sci.koifish.init.ModItems;
 
 public class ClientProxy extends CommonProxy {
 

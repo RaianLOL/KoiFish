@@ -1,4 +1,4 @@
-package sci.koifish.block;
+package net.sci.koifish.block;
 
 import java.util.Random;
 
@@ -8,10 +8,10 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
-import sci.koifish.KoiFish;
-import sci.koifish.init.ModItems;
-import sci.koifish.item.ItemEmpathy;
-import sci.koifish.lib.Names;
+import net.sci.koifish.KoiFish;
+import net.sci.koifish.init.ModItems;
+import net.sci.koifish.item.ItemEmpathy;
+import net.sci.koifish.lib.Names;
 
 public class BlockEmpathyOre extends BlockOre {
 

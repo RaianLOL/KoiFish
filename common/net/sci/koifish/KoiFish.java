@@ -1,4 +1,4 @@
-package sci.koifish;
+package net.sci.koifish;
 
 import java.util.Random;
 

@@ -1,12 +1,12 @@
-package sci.koifish;
+package net.sci.koifish;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import sci.koifish.init.ModBlocks;
-import sci.koifish.init.ModItems;
-import sci.koifish.world.KoiFishWorldGen;
+import net.sci.koifish.init.ModBlocks;
+import net.sci.koifish.init.ModItems;
+import net.sci.koifish.world.KoiFishWorldGen;
 
 public class CommonProxy {
 	

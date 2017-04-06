@@ -1,4 +1,4 @@
-package sci.koifish.world;
+package net.sci.koifish.world;
 
 import java.util.Random;
 
@@ -9,7 +9,7 @@ import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.fml.common.IWorldGenerator;
-import sci.koifish.init.ModBlocks;
+import net.sci.koifish.init.ModBlocks;
 
 public class KoiFishWorldGen implements IWorldGenerator {
 	WorldGenerator gen_empathy_ore = new WorldGenMinable(ModBlocks.empathyBlock.getDefaultState(),8);

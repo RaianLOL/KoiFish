@@ -1,4 +1,4 @@
-package sci.koifish.item;
+package net.sci.koifish.item;
 
 import javax.annotation.Nullable;
 
@@ -7,8 +7,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import sci.koifish.KoiFish;
-import sci.koifish.lib.Names;
+import net.sci.koifish.KoiFish;
+import net.sci.koifish.lib.Names;
 
 public class ItemEmpathy extends Item {
 

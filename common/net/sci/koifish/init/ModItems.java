@@ -1,4 +1,4 @@
-package sci.koifish.init;
+package net.sci.koifish.init;
 
 import net.minecraft.client.renderer.ItemModelMesher;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -9,10 +9,10 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import sci.koifish.KoiFish;
-import sci.koifish.block.BlockEmpathyOre;
-import sci.koifish.item.ItemEmpathy;
-import sci.koifish.lib.Names;
+import net.sci.koifish.KoiFish;
+import net.sci.koifish.block.BlockEmpathyOre;
+import net.sci.koifish.item.ItemEmpathy;
+import net.sci.koifish.lib.Names;
 
 public class ModItems {
 	

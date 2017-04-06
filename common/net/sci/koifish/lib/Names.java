@@ -1,4 +1,4 @@
-package sci.koifish.lib;
+package net.sci.koifish.lib;
 
 public class Names {
 
