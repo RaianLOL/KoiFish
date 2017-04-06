@@ -1,0 +1,29 @@
+Symbol range map extraction starting
+Processing 9 files
+startProcessing "net\sci\koifish\ClientProxy.java" md5: 1b09b0780c35b83217c059af8f90dda0
+endProcessing "net\sci\koifish\ClientProxy.java"
+
+startProcessing "net\sci\koifish\CommonProxy.java" md5: 06e9138453ad0a85df6d142d45e58e8f
+endProcessing "net\sci\koifish\CommonProxy.java"
+
+startProcessing "net\sci\koifish\KoiFish.java" md5: 8642d59ea543c60521220c020cc395a5
+endProcessing "net\sci\koifish\KoiFish.java"
+
+startProcessing "net\sci\koifish\block\BlockEmpathyOre.java" md5: 7ca701175fbd6768eaf665574e33e1a2
+endProcessing "net\sci\koifish\block\BlockEmpathyOre.java"
+
+startProcessing "net\sci\koifish\init\ModBlocks.java" md5: eb13ab92e75dc4f733f6f67d66e870de
+endProcessing "net\sci\koifish\init\ModBlocks.java"
+
+startProcessing "net\sci\koifish\init\ModItems.java" md5: 0d6f7767d1abc28202fba9862f4982b9
+endProcessing "net\sci\koifish\init\ModItems.java"
+
+startProcessing "net\sci\koifish\item\ItemEmpathy.java" md5: 317272030991ad55ccff8a9054684aeb
+endProcessing "net\sci\koifish\item\ItemEmpathy.java"
+
+startProcessing "net\sci\koifish\lib\Names.java" md5: 9eeda96e2a69075c19c63961d064f8c0
+endProcessing "net\sci\koifish\lib\Names.java"
+
+startProcessing "net\sci\koifish\world\KoiFishWorldGen.java" md5: 3ee979c2479e867031b6e7fe7814e644
+endProcessing "net\sci\koifish\world\KoiFishWorldGen.java"
+

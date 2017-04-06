@@ -1,0 +1,457 @@
+Symbol range map extraction starting
+Processing 9 files
+startProcessing "net\sci\koifish\ClientProxy.java" md5: 1b09b0780c35b83217c059af8f90dda0
+@|net\sci\koifish\ClientProxy.java|8|23|net.sci.koifish|package|net.sci.koifish|(file)
+Class Start: net.sci.koifish.ClientProxy
+   @|net\sci\koifish\ClientProxy.java|418|429|ClientProxy|class|net.sci.koifish.ClientProxy
+   @|net\sci\koifish\ClientProxy.java|438|449|CommonProxy|class|net.sci.koifish.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\sci\koifish\ClientProxy.java|511|516|event|param|net.sci.koifish.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\sci\koifish\ClientProxy.java|455|463|Override|class|java.lang.Override
+      @|net\sci\koifish\ClientProxy.java|477|484|preInit|method|net.sci.koifish.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\sci\koifish\ClientProxy.java|485|510|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\sci\koifish\ClientProxy.java|531|538|preInit|method|net.sci.koifish.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\sci\koifish\ClientProxy.java|539|544|event|param|net.sci.koifish.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\sci\koifish\ClientProxy.java|604|609|event|param|net.sci.koifish.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\sci\koifish\ClientProxy.java|554|562|Override|class|java.lang.Override
+      @|net\sci\koifish\ClientProxy.java|576|580|init|method|net.sci.koifish.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\sci\koifish\ClientProxy.java|581|603|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\sci\koifish\ClientProxy.java|624|628|init|method|net.sci.koifish.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\sci\koifish\ClientProxy.java|629|634|event|param|net.sci.koifish.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\sci\koifish\ClientProxy.java|642|657|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|net\sci\koifish\ClientProxy.java|667|676|Minecraft|class|net.minecraft.client.Minecraft
+      @|net\sci\koifish\ClientProxy.java|677|689|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|net\sci\koifish\ClientProxy.java|692|705|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|net\sci\koifish\ClientProxy.java|708|726|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|net\sci\koifish\ClientProxy.java|732|740|ModItems|class|net.sci.koifish.init.ModItems
+      @|net\sci\koifish\ClientProxy.java|741|751|initClient|method|net.sci.koifish.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\sci\koifish\ClientProxy.java|763|772|ModBlocks|class|net.sci.koifish.init.ModBlocks
+      @|net\sci\koifish\ClientProxy.java|773|783|initClient|method|net.sci.koifish.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\sci\koifish\ClientProxy.java|858|863|event|param|net.sci.koifish.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\sci\koifish\ClientProxy.java|800|808|Override|class|java.lang.Override
+      @|net\sci\koifish\ClientProxy.java|822|830|postInit|method|net.sci.koifish.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\sci\koifish\ClientProxy.java|831|857|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|net\sci\koifish\ClientProxy.java|878|886|postInit|method|net.sci.koifish.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\sci\koifish\ClientProxy.java|887|892|event|param|net.sci.koifish.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : net.sci.koifish.ClientProxy
+endProcessing "net\sci\koifish\ClientProxy.java"
+
+startProcessing "net\sci\koifish\CommonProxy.java" md5: 06e9138453ad0a85df6d142d45e58e8f
+@|net\sci\koifish\CommonProxy.java|8|23|net.sci.koifish|package|net.sci.koifish|(file)
+Class Start: net.sci.koifish.CommonProxy
+   @|net\sci\koifish\CommonProxy.java|431|442|CommonProxy|class|net.sci.koifish.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\sci\koifish\CommonProxy.java|494|499|event|param|net.sci.koifish.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\sci\koifish\CommonProxy.java|460|467|preInit|method|net.sci.koifish.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\sci\koifish\CommonProxy.java|468|493|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\sci\koifish\CommonProxy.java|508|516|ModItems|class|net.sci.koifish.init.ModItems
+      @|net\sci\koifish\CommonProxy.java|517|521|init|method|net.sci.koifish.init.ModItems|init|()V
+      @|net\sci\koifish\CommonProxy.java|527|536|ModBlocks|class|net.sci.koifish.init.ModBlocks
+      @|net\sci\koifish\CommonProxy.java|537|541|init|method|net.sci.koifish.init.ModBlocks|init|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\sci\koifish\CommonProxy.java|591|596|event|param|net.sci.koifish.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\sci\koifish\CommonProxy.java|563|567|init|method|net.sci.koifish.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\sci\koifish\CommonProxy.java|568|590|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\sci\koifish\CommonProxy.java|605|617|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\sci\koifish\CommonProxy.java|618|640|registerWorldGenerator|method|net.minecraftforge.fml.common.registry.GameRegistry|registerWorldGenerator|(Lnet/minecraftforge/fml/common/IWorldGenerator;I)V
+      @|net\sci\koifish\CommonProxy.java|645|660|KoiFishWorldGen|class|net.sci.koifish.world.KoiFishWorldGen
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\sci\koifish\CommonProxy.java|722|727|event|param|net.sci.koifish.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\sci\koifish\CommonProxy.java|686|694|postInit|method|net.sci.koifish.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\sci\koifish\CommonProxy.java|695|721|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : net.sci.koifish.CommonProxy
+endProcessing "net\sci\koifish\CommonProxy.java"
+
+startProcessing "net\sci\koifish\KoiFish.java" md5: 8642d59ea543c60521220c020cc395a5
+@|net\sci\koifish\KoiFish.java|8|23|net.sci.koifish|package|net.sci.koifish|(file)
+Class Start: net.sci.koifish.KoiFish
+   @|net\sci\koifish\KoiFish.java|459|462|Mod|class|net.minecraftforge.fml.common.Mod
+   @|net\sci\koifish\KoiFish.java|463|468|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|net\sci\koifish\KoiFish.java|471|478|KoiFish|class|net.sci.koifish.KoiFish
+   @|net\sci\koifish\KoiFish.java|479|485|MOD_ID|field|net.sci.koifish.KoiFish|MOD_ID
+   @|net\sci\koifish\KoiFish.java|487|491|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|net\sci\koifish\KoiFish.java|494|501|KoiFish|class|net.sci.koifish.KoiFish
+   @|net\sci\koifish\KoiFish.java|502|510|MOD_NAME|field|net.sci.koifish.KoiFish|MOD_NAME
+   @|net\sci\koifish\KoiFish.java|512|519|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|net\sci\koifish\KoiFish.java|522|529|KoiFish|class|net.sci.koifish.KoiFish
+   @|net\sci\koifish\KoiFish.java|530|537|VERSION|field|net.sci.koifish.KoiFish|VERSION
+   @|net\sci\koifish\KoiFish.java|539|551|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
+   @|net\sci\koifish\KoiFish.java|554|561|KoiFish|class|net.sci.koifish.KoiFish
+   @|net\sci\koifish\KoiFish.java|562|574|DEPENDENCIES|field|net.sci.koifish.KoiFish|DEPENDENCIES
+   @|net\sci\koifish\KoiFish.java|589|596|KoiFish|class|net.sci.koifish.KoiFish
+   @|net\sci\koifish\KoiFish.java|621|627|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|621|627|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|628|634|MOD_ID|field|net.sci.koifish.KoiFish|MOD_ID|
+   @|net\sci\koifish\KoiFish.java|670|676|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|670|676|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|677|685|MOD_NAME|field|net.sci.koifish.KoiFish|MOD_NAME|
+   @|net\sci\koifish\KoiFish.java|725|731|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|725|731|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|732|739|VERSION|field|net.sci.koifish.KoiFish|VERSION|
+   @|net\sci\koifish\KoiFish.java|776|782|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|776|782|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|783|795|DEPENDENCIES|field|net.sci.koifish.KoiFish|DEPENDENCIES|
+   @|net\sci\koifish\KoiFish.java|859|865|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|859|865|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|866|881|RESOURCE_PREFIX|field|net.sci.koifish.KoiFish|RESOURCE_PREFIX|
+   @|net\sci\koifish\KoiFish.java|884|890|MOD_ID|field|net.sci.koifish.KoiFish|MOD_ID
+   @|net\sci\koifish\KoiFish.java|891|902|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+   @|net\sci\koifish\KoiFish.java|929|935|Random|class|java.util.Random
+   @|net\sci\koifish\KoiFish.java|929|935|Random|class|java.util.Random
+   @|net\sci\koifish\KoiFish.java|936|942|random|field|net.sci.koifish.KoiFish|random|
+   @|net\sci\koifish\KoiFish.java|949|955|Random|class|java.util.Random
+   @|net\sci\koifish\KoiFish.java|995|1002|KoiFish|class|net.sci.koifish.KoiFish
+   @|net\sci\koifish\KoiFish.java|963|971|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|net\sci\koifish\KoiFish.java|972|978|MOD_ID|field|net.sci.koifish.KoiFish|MOD_ID
+   @|net\sci\koifish\KoiFish.java|995|1002|KoiFish|class|net.sci.koifish.KoiFish
+   @|net\sci\koifish\KoiFish.java|1003|1011|instance|field|net.sci.koifish.KoiFish|instance|
+   @|net\sci\koifish\KoiFish.java|1123|1134|CommonProxy|class|net.sci.koifish.CommonProxy
+   @|net\sci\koifish\KoiFish.java|1017|1027|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|net\sci\koifish\KoiFish.java|1028|1038|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|net\sci\koifish\KoiFish.java|1068|1078|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|net\sci\koifish\KoiFish.java|1123|1134|CommonProxy|class|net.sci.koifish.CommonProxy
+   @|net\sci\koifish\KoiFish.java|1135|1140|proxy|field|net.sci.koifish.KoiFish|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1206|1211|event|param|net.sci.koifish.KoiFish|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\sci\koifish\KoiFish.java|1146|1158|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\sci\koifish\KoiFish.java|1172|1179|preInit|method|net.sci.koifish.KoiFish|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1180|1205|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\sci\koifish\KoiFish.java|1220|1225|proxy|field|net.sci.koifish.KoiFish|proxy
+      @|net\sci\koifish\KoiFish.java|1226|1233|preInit|method|net.sci.koifish.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1234|1239|event|param|net.sci.koifish.KoiFish|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1303|1308|event|param|net.sci.koifish.KoiFish|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\sci\koifish\KoiFish.java|1249|1261|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\sci\koifish\KoiFish.java|1275|1279|init|method|net.sci.koifish.KoiFish|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1280|1302|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\sci\koifish\KoiFish.java|1317|1322|proxy|field|net.sci.koifish.KoiFish|proxy
+      @|net\sci\koifish\KoiFish.java|1323|1327|init|method|net.sci.koifish.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1328|1333|event|param|net.sci.koifish.KoiFish|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1405|1410|event|param|net.sci.koifish.KoiFish|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\sci\koifish\KoiFish.java|1343|1355|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\sci\koifish\KoiFish.java|1369|1377|postInit|method|net.sci.koifish.KoiFish|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1378|1404|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|net\sci\koifish\KoiFish.java|1419|1424|proxy|field|net.sci.koifish.KoiFish|proxy
+      @|net\sci\koifish\KoiFish.java|1425|1433|postInit|method|net.sci.koifish.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1434|1439|event|param|net.sci.koifish.KoiFish|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : net.sci.koifish.KoiFish
+endProcessing "net\sci\koifish\KoiFish.java"
+
+startProcessing "net\sci\koifish\block\BlockEmpathyOre.java" md5: 7ca701175fbd6768eaf665574e33e1a2
+@|net\sci\koifish\block\BlockEmpathyOre.java|8|29|net.sci.koifish.block|package|net.sci.koifish.block|(file)
+Class Start: net.sci.koifish.block.BlockEmpathyOre
+   @|net\sci\koifish\block\BlockEmpathyOre.java|437|452|BlockEmpathyOre|class|net.sci.koifish.block.BlockEmpathyOre
+   @|net\sci\koifish\block\BlockEmpathyOre.java|461|469|BlockOre|class|net.minecraft.block.BlockOre
+   @|net\sci\koifish\block\BlockEmpathyOre.java|482|486|Item|class|net.minecraft.item.Item
+   @|net\sci\koifish\block\BlockEmpathyOre.java|482|486|Item|class|net.minecraft.item.Item
+   @|net\sci\koifish\block\BlockEmpathyOre.java|487|491|drop|field|net.sci.koifish.block.BlockEmpathyOre|drop|
+   @|net\sci\koifish\block\BlockEmpathyOre.java|502|513|IBlockState|class|net.minecraft.block.state.IBlockState
+   @|net\sci\koifish\block\BlockEmpathyOre.java|502|513|IBlockState|class|net.minecraft.block.state.IBlockState
+   @|net\sci\koifish\block\BlockEmpathyOre.java|514|519|state|field|net.sci.koifish.block.BlockEmpathyOre|state|
+   Method Start: BlockEmpathyOre(Lnet/minecraft/item/Item;Lnet/minecraft/block/state/IBlockState;)V
+      @|net\sci\koifish\block\BlockEmpathyOre.java|550|554|drop|param|net.sci.koifish.block.BlockEmpathyOre|BlockEmpathyOre|(Lnet/minecraft/item/Item;Lnet/minecraft/block/state/IBlockState;)V|drop|0
+      @|net\sci\koifish\block\BlockEmpathyOre.java|568|573|state|param|net.sci.koifish.block.BlockEmpathyOre|BlockEmpathyOre|(Lnet/minecraft/item/Item;Lnet/minecraft/block/state/IBlockState;)V|state|1
+      @|net\sci\koifish\block\BlockEmpathyOre.java|529|544|BlockEmpathyOre|method|net.sci.koifish.block.BlockEmpathyOre|BlockEmpathyOre|(Lnet/minecraft/item/Item;Lnet/minecraft/block/state/IBlockState;)V
+      @|net\sci\koifish\block\BlockEmpathyOre.java|545|549|Item|class|net.minecraft.item.Item
+      @|net\sci\koifish\block\BlockEmpathyOre.java|556|567|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\sci\koifish\block\BlockEmpathyOre.java|595|599|drop|field|net.sci.koifish.block.BlockEmpathyOre|drop
+      @|net\sci\koifish\block\BlockEmpathyOre.java|602|606|drop|param|net.sci.koifish.block.BlockEmpathyOre|BlockEmpathyOre|(Lnet/minecraft/item/Item;Lnet/minecraft/block/state/IBlockState;)V|drop|0
+      @|net\sci\koifish\block\BlockEmpathyOre.java|615|620|state|field|net.sci.koifish.block.BlockEmpathyOre|state
+      @|net\sci\koifish\block\BlockEmpathyOre.java|623|628|state|param|net.sci.koifish.block.BlockEmpathyOre|BlockEmpathyOre|(Lnet/minecraft/item/Item;Lnet/minecraft/block/state/IBlockState;)V|state|1
+      @|net\sci\koifish\block\BlockEmpathyOre.java|632|643|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|653|666|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|677|689|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|690|699|SoundType|class|net.minecraft.block.SoundType
+      @|net\sci\koifish\block\BlockEmpathyOre.java|700|705|STONE|field|net.minecraft.block.SoundType|STONE
+      @|net\sci\koifish\block\BlockEmpathyOre.java|710|725|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+   Method End: BlockEmpathyOre(Lnet/minecraft/item/Item;Lnet/minecraft/block/state/IBlockState;)V
+   Method Start: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|797|802|state|param|net.sci.koifish.block.BlockEmpathyOre|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|state|0
+      @|net\sci\koifish\block\BlockEmpathyOre.java|811|815|rand|param|net.sci.koifish.block.BlockEmpathyOre|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|rand|1
+      @|net\sci\koifish\block\BlockEmpathyOre.java|821|828|fortune|param|net.sci.koifish.block.BlockEmpathyOre|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|fortune|2
+      @|net\sci\koifish\block\BlockEmpathyOre.java|748|756|Override|class|java.lang.Override
+      @|net\sci\koifish\block\BlockEmpathyOre.java|765|769|Item|class|net.minecraft.item.Item
+      @|net\sci\koifish\block\BlockEmpathyOre.java|770|784|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|785|796|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\sci\koifish\block\BlockEmpathyOre.java|804|810|Random|class|java.util.Random
+      @|net\sci\koifish\block\BlockEmpathyOre.java|851|855|drop|field|net.sci.koifish.block.BlockEmpathyOre|drop
+   Method End: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+   Method Start: quantityDropped(Ljava/util/Random;)I
+      @|net\sci\koifish\block\BlockEmpathyOre.java|910|916|random|param|net.sci.koifish.block.BlockEmpathyOre|quantityDropped|(Ljava/util/Random;)I|random|0
+      @|net\sci\koifish\block\BlockEmpathyOre.java|866|874|Override|class|java.lang.Override
+      @|net\sci\koifish\block\BlockEmpathyOre.java|887|902|quantityDropped|method|net.minecraft.block.Block|quantityDropped|(Ljava/util/Random;)I
+      @|net\sci\koifish\block\BlockEmpathyOre.java|903|909|Random|class|java.util.Random
+      @|net\sci\koifish\block\BlockEmpathyOre.java|943|949|random|param|net.sci.koifish.block.BlockEmpathyOre|quantityDropped|(Ljava/util/Random;)I|random|0
+      @|net\sci\koifish\block\BlockEmpathyOre.java|950|957|nextInt|method|java.util.Random|nextInt|(I)I
+   Method End: quantityDropped(Ljava/util/Random;)I
+   Method Start: quantityDroppedWithBonus(ILjava/util/Random;)I
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1022|1029|fortune|param|net.sci.koifish.block.BlockEmpathyOre|quantityDroppedWithBonus|(ILjava/util/Random;)I|fortune|0
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1038|1044|random|param|net.sci.koifish.block.BlockEmpathyOre|quantityDroppedWithBonus|(ILjava/util/Random;)I|random|1
+      @|net\sci\koifish\block\BlockEmpathyOre.java|972|980|Override|class|java.lang.Override
+      @|net\sci\koifish\block\BlockEmpathyOre.java|993|1017|quantityDroppedWithBonus|method|net.minecraft.block.Block|quantityDroppedWithBonus|(ILjava/util/Random;)I
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1031|1037|Random|class|java.util.Random
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1064|1071|fortune|param|net.sci.koifish.block.BlockEmpathyOre|quantityDroppedWithBonus|(ILjava/util/Random;)I|fortune|0
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1079|1083|Item|class|net.minecraft.item.Item
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1084|1100|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1115|1129|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1131|1142|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1148|1161|getBlockState|method|net.minecraft.block.Block|getBlockState|()Lnet/minecraft/block/state/BlockStateContainer;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1164|1178|getValidStates|method|net.minecraft.block.state.BlockStateContainer|getValidStates|()Lcom/google/common/collect/ImmutableList;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1181|1189|iterator|method|java.lang.Iterable|iterator|()Ljava/util/Iterator;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1192|1196|next|method|java.util.Iterator|next|()Ljava/lang/Object;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1200|1206|random|param|net.sci.koifish.block.BlockEmpathyOre|quantityDroppedWithBonus|(ILjava/util/Random;)I|random|1
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1208|1215|fortune|param|net.sci.koifish.block.BlockEmpathyOre|quantityDroppedWithBonus|(ILjava/util/Random;)I|fortune|0
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1248|1254|random|param|net.sci.koifish.block.BlockEmpathyOre|quantityDroppedWithBonus|(ILjava/util/Random;)I|random|1
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1255|1262|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1263|1270|fortune|param|net.sci.koifish.block.BlockEmpathyOre|quantityDroppedWithBonus|(ILjava/util/Random;)I|fortune|0
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1381|1396|quantityDropped|method|net.minecraft.block.Block|quantityDropped|(Ljava/util/Random;)I
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1397|1403|random|param|net.sci.koifish.block.BlockEmpathyOre|quantityDroppedWithBonus|(ILjava/util/Random;)I|random|1
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1473|1488|quantityDropped|method|net.minecraft.block.Block|quantityDropped|(Ljava/util/Random;)I
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1489|1495|random|param|net.sci.koifish.block.BlockEmpathyOre|quantityDroppedWithBonus|(ILjava/util/Random;)I|random|1
+   Method End: quantityDroppedWithBonus(ILjava/util/Random;)I
+   Method Start: getUnlocalizedName()Ljava/lang/String;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1518|1526|Override|class|java.lang.Override
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1535|1541|String|class|java.lang.String
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1542|1560|getUnlocalizedName|method|net.minecraft.block.Block|getUnlocalizedName|()Ljava/lang/String;
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1587|1594|KoiFish|class|net.sci.koifish.KoiFish
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1595|1610|RESOURCE_PREFIX|field|net.sci.koifish.KoiFish|RESOURCE_PREFIX
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1613|1618|Names|class|net.sci.koifish.lib.Names
+      @|net\sci\koifish\block\BlockEmpathyOre.java|1619|1630|EMPATHY_ORE|field|net.sci.koifish.lib.Names|EMPATHY_ORE
+   Method End: getUnlocalizedName()Ljava/lang/String;
+Class End  : net.sci.koifish.block.BlockEmpathyOre
+endProcessing "net\sci\koifish\block\BlockEmpathyOre.java"
+
+startProcessing "net\sci\koifish\init\ModBlocks.java" md5: eb13ab92e75dc4f733f6f67d66e870de
+@|net\sci\koifish\init\ModBlocks.java|8|28|net.sci.koifish.init|package|net.sci.koifish.init|(file)
+Class Start: net.sci.koifish.init.ModBlocks
+   @|net\sci\koifish\init\ModBlocks.java|795|804|ModBlocks|class|net.sci.koifish.init.ModBlocks
+   @|net\sci\koifish\init\ModBlocks.java|824|839|BlockEmpathyOre|class|net.sci.koifish.block.BlockEmpathyOre
+   @|net\sci\koifish\init\ModBlocks.java|824|839|BlockEmpathyOre|class|net.sci.koifish.block.BlockEmpathyOre
+   @|net\sci\koifish\init\ModBlocks.java|840|852|empathyBlock|field|net.sci.koifish.init.ModBlocks|empathyBlock|
+   Method Start: init()V
+      @|net\sci\koifish\init\ModBlocks.java|875|879|init|method|net.sci.koifish.init.ModBlocks|init|()V
+      @|net\sci\koifish\init\ModBlocks.java|889|905|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|net\sci\koifish\init\ModBlocks.java|921|937|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|net\sci\koifish\init\ModBlocks.java|938|945|KoiFish|class|net.sci.koifish.KoiFish
+      @|net\sci\koifish\init\ModBlocks.java|946|952|MOD_ID|field|net.sci.koifish.KoiFish|MOD_ID
+      @|net\sci\koifish\init\ModBlocks.java|954|959|Names|class|net.sci.koifish.lib.Names
+      @|net\sci\koifish\init\ModBlocks.java|960|971|EMPATHY_ORE|field|net.sci.koifish.lib.Names|EMPATHY_ORE
+      @|net\sci\koifish\init\ModBlocks.java|976|988|empathyBlock|field|net.sci.koifish.init.ModBlocks|empathyBlock
+      @|net\sci\koifish\init\ModBlocks.java|995|1010|BlockEmpathyOre|class|net.sci.koifish.block.BlockEmpathyOre
+      @|net\sci\koifish\init\ModBlocks.java|1011|1019|ModItems|class|net.sci.koifish.init.ModItems
+      @|net\sci\koifish\init\ModBlocks.java|1020|1027|empathy|field|net.sci.koifish.init.ModItems|empathy
+      @|net\sci\koifish\init\ModBlocks.java|1038|1050|empathyBlock|field|net.sci.koifish.init.ModBlocks|empathyBlock
+      @|net\sci\koifish\init\ModBlocks.java|1051|1066|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|net\sci\koifish\init\ModBlocks.java|1080|1092|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\sci\koifish\init\ModBlocks.java|1093|1101|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\sci\koifish\init\ModBlocks.java|1102|1114|empathyBlock|field|net.sci.koifish.init.ModBlocks|empathyBlock
+      @|net\sci\koifish\init\ModBlocks.java|1119|1131|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\sci\koifish\init\ModBlocks.java|1132|1140|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;Lnet/minecraft/util/ResourceLocation;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\sci\koifish\init\ModBlocks.java|1145|1154|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|net\sci\koifish\init\ModBlocks.java|1155|1167|empathyBlock|field|net.sci.koifish.init.ModBlocks|empathyBlock
+   Method End: init()V
+   Method Start: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\sci\koifish\init\ModBlocks.java|1257|1263|mesher|param|net.sci.koifish.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\sci\koifish\init\ModBlocks.java|1188|1196|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|net\sci\koifish\init\ModBlocks.java|1197|1201|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|net\sci\koifish\init\ModBlocks.java|1202|1208|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net\sci\koifish\init\ModBlocks.java|1230|1240|initClient|method|net.sci.koifish.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\sci\koifish\init\ModBlocks.java|1241|1256|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|net\sci\koifish\init\ModBlocks.java|1272|1276|Item|class|net.minecraft.item.Item
+      @|net\sci\koifish\init\ModBlocks.java|1284|1288|Item|class|net.minecraft.item.Item
+      @|net\sci\koifish\init\ModBlocks.java|1289|1305|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|net\sci\koifish\init\ModBlocks.java|1306|1318|empathyBlock|field|net.sci.koifish.init.ModBlocks|empathyBlock
+      @|net\sci\koifish\init\ModBlocks.java|1323|1344|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\sci\koifish\init\ModBlocks.java|1357|1378|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\sci\koifish\init\ModBlocks.java|1379|1386|KoiFish|class|net.sci.koifish.KoiFish
+      @|net\sci\koifish\init\ModBlocks.java|1387|1402|RESOURCE_PREFIX|field|net.sci.koifish.KoiFish|RESOURCE_PREFIX
+      @|net\sci\koifish\init\ModBlocks.java|1405|1410|Names|class|net.sci.koifish.lib.Names
+      @|net\sci\koifish\init\ModBlocks.java|1411|1422|EMPATHY_ORE|field|net.sci.koifish.lib.Names|EMPATHY_ORE
+      @|net\sci\koifish\init\ModBlocks.java|1440|1451|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|net\sci\koifish\init\ModBlocks.java|1452|1472|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|net\sci\koifish\init\ModBlocks.java|1489|1495|mesher|param|net.sci.koifish.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\sci\koifish\init\ModBlocks.java|1496|1504|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+   Method End: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+Class End  : net.sci.koifish.init.ModBlocks
+endProcessing "net\sci\koifish\init\ModBlocks.java"
+
+startProcessing "net\sci\koifish\init\ModItems.java" md5: 0d6f7767d1abc28202fba9862f4982b9
+@|net\sci\koifish\init\ModItems.java|8|28|net.sci.koifish.init|package|net.sci.koifish.init|(file)
+Class Start: net.sci.koifish.init.ModItems
+   @|net\sci\koifish\init\ModItems.java|647|655|ModItems|class|net.sci.koifish.init.ModItems
+   @|net\sci\koifish\init\ModItems.java|675|686|ItemEmpathy|class|net.sci.koifish.item.ItemEmpathy
+   @|net\sci\koifish\init\ModItems.java|675|686|ItemEmpathy|class|net.sci.koifish.item.ItemEmpathy
+   @|net\sci\koifish\init\ModItems.java|687|694|empathy|field|net.sci.koifish.init.ModItems|empathy|
+   Method Start: init()V
+      @|net\sci\koifish\init\ModItems.java|717|721|init|method|net.sci.koifish.init.ModItems|init|()V
+      @|net\sci\koifish\init\ModItems.java|731|747|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|net\sci\koifish\init\ModItems.java|763|779|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|net\sci\koifish\init\ModItems.java|780|787|KoiFish|class|net.sci.koifish.KoiFish
+      @|net\sci\koifish\init\ModItems.java|788|794|MOD_ID|field|net.sci.koifish.KoiFish|MOD_ID
+      @|net\sci\koifish\init\ModItems.java|796|801|Names|class|net.sci.koifish.lib.Names
+      @|net\sci\koifish\init\ModItems.java|802|809|EMPATHY|field|net.sci.koifish.lib.Names|EMPATHY
+      @|net\sci\koifish\init\ModItems.java|814|821|empathy|field|net.sci.koifish.init.ModItems|empathy
+      @|net\sci\koifish\init\ModItems.java|828|839|ItemEmpathy|class|net.sci.koifish.item.ItemEmpathy
+      @|net\sci\koifish\init\ModItems.java|845|852|empathy|field|net.sci.koifish.init.ModItems|empathy
+      @|net\sci\koifish\init\ModItems.java|853|868|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|net\sci\koifish\init\ModItems.java|882|894|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\sci\koifish\init\ModItems.java|895|903|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|net\sci\koifish\init\ModItems.java|904|911|empathy|field|net.sci.koifish.init.ModItems|empathy
+   Method End: init()V
+   Method Start: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\sci\koifish\init\ModItems.java|990|996|mesher|param|net.sci.koifish.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\sci\koifish\init\ModItems.java|921|929|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|net\sci\koifish\init\ModItems.java|930|934|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|net\sci\koifish\init\ModItems.java|935|941|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net\sci\koifish\init\ModItems.java|963|973|initClient|method|net.sci.koifish.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\sci\koifish\init\ModItems.java|974|989|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|net\sci\koifish\init\ModItems.java|1005|1026|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\sci\koifish\init\ModItems.java|1039|1060|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|net\sci\koifish\init\ModItems.java|1061|1068|KoiFish|class|net.sci.koifish.KoiFish
+      @|net\sci\koifish\init\ModItems.java|1069|1084|RESOURCE_PREFIX|field|net.sci.koifish.KoiFish|RESOURCE_PREFIX
+      @|net\sci\koifish\init\ModItems.java|1087|1092|Names|class|net.sci.koifish.lib.Names
+      @|net\sci\koifish\init\ModItems.java|1093|1100|EMPATHY|field|net.sci.koifish.lib.Names|EMPATHY
+      @|net\sci\koifish\init\ModItems.java|1118|1129|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|net\sci\koifish\init\ModItems.java|1130|1150|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|net\sci\koifish\init\ModItems.java|1151|1158|empathy|field|net.sci.koifish.init.ModItems|empathy
+      @|net\sci\koifish\init\ModItems.java|1170|1176|mesher|param|net.sci.koifish.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V|mesher|0
+      @|net\sci\koifish\init\ModItems.java|1177|1185|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|net\sci\koifish\init\ModItems.java|1186|1193|empathy|field|net.sci.koifish.init.ModItems|empathy
+   Method End: initClient(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+Class End  : net.sci.koifish.init.ModItems
+endProcessing "net\sci\koifish\init\ModItems.java"
+
+startProcessing "net\sci\koifish\item\ItemEmpathy.java" md5: 317272030991ad55ccff8a9054684aeb
+@|net\sci\koifish\item\ItemEmpathy.java|8|28|net.sci.koifish.item|package|net.sci.koifish.item|(file)
+Class Start: net.sci.koifish.item.ItemEmpathy
+   @|net\sci\koifish\item\ItemEmpathy.java|360|371|ItemEmpathy|class|net.sci.koifish.item.ItemEmpathy
+   @|net\sci\koifish\item\ItemEmpathy.java|380|384|Item|class|net.minecraft.item.Item
+   Method Start: getUnlocalizedName(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|net\sci\koifish\item\ItemEmpathy.java|443|448|stack|param|net.sci.koifish.item.ItemEmpathy|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|net\sci\koifish\item\ItemEmpathy.java|390|398|Override|class|java.lang.Override
+      @|net\sci\koifish\item\ItemEmpathy.java|407|413|String|class|java.lang.String
+      @|net\sci\koifish\item\ItemEmpathy.java|414|432|getUnlocalizedName|method|net.minecraft.item.Item|getUnlocalizedName|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|net\sci\koifish\item\ItemEmpathy.java|433|442|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\sci\koifish\item\ItemEmpathy.java|471|478|KoiFish|class|net.sci.koifish.KoiFish
+      @|net\sci\koifish\item\ItemEmpathy.java|479|494|RESOURCE_PREFIX|field|net.sci.koifish.KoiFish|RESOURCE_PREFIX
+      @|net\sci\koifish\item\ItemEmpathy.java|497|502|Names|class|net.sci.koifish.lib.Names
+      @|net\sci\koifish\item\ItemEmpathy.java|503|510|EMPATHY|field|net.sci.koifish.lib.Names|EMPATHY
+   Method End: getUnlocalizedName(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+   Method Start: getItemStackLimit(Lnet/minecraft/item/ItemStack;)I
+      @|net\sci\koifish\item\ItemEmpathy.java|568|573|stack|param|net.sci.koifish.item.ItemEmpathy|getItemStackLimit|(Lnet/minecraft/item/ItemStack;)I|stack|0
+      @|net\sci\koifish\item\ItemEmpathy.java|519|527|Override|class|java.lang.Override
+      @|net\sci\koifish\item\ItemEmpathy.java|540|557|getItemStackLimit|method|net.minecraft.item.Item|getItemStackLimit|(Lnet/minecraft/item/ItemStack;)I
+      @|net\sci\koifish\item\ItemEmpathy.java|558|567|ItemStack|class|net.minecraft.item.ItemStack
+   Method End: getItemStackLimit(Lnet/minecraft/item/ItemStack;)I
+   Method Start: getCreativeTab()Lnet/minecraft/creativetab/CreativeTabs;
+      @|net\sci\koifish\item\ItemEmpathy.java|610|618|Nullable|class|javax.annotation.Nullable
+      @|net\sci\koifish\item\ItemEmpathy.java|624|632|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|net\sci\koifish\item\ItemEmpathy.java|633|637|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|net\sci\koifish\item\ItemEmpathy.java|638|644|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|net\sci\koifish\item\ItemEmpathy.java|657|669|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|net\sci\koifish\item\ItemEmpathy.java|670|684|getCreativeTab|method|net.minecraft.item.Item|getCreativeTab|()Lnet/minecraft/creativetab/CreativeTabs;
+      @|net\sci\koifish\item\ItemEmpathy.java|708|720|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|net\sci\koifish\item\ItemEmpathy.java|721|730|MATERIALS|field|net.minecraft.creativetab.CreativeTabs|MATERIALS
+   Method End: getCreativeTab()Lnet/minecraft/creativetab/CreativeTabs;
+Class End  : net.sci.koifish.item.ItemEmpathy
+endProcessing "net\sci\koifish\item\ItemEmpathy.java"
+
+startProcessing "net\sci\koifish\lib\Names.java" md5: 9eeda96e2a69075c19c63961d064f8c0
+@|net\sci\koifish\lib\Names.java|8|27|net.sci.koifish.lib|package|net.sci.koifish.lib|(file)
+Class Start: net.sci.koifish.lib.Names
+   @|net\sci\koifish\lib\Names.java|43|48|Names|class|net.sci.koifish.lib.Names
+   @|net\sci\koifish\lib\Names.java|73|79|String|class|java.lang.String
+   @|net\sci\koifish\lib\Names.java|73|79|String|class|java.lang.String
+   @|net\sci\koifish\lib\Names.java|80|91|EMPATHY_ORE|field|net.sci.koifish.lib.Names|EMPATHY_ORE|
+   @|net\sci\koifish\lib\Names.java|132|138|String|class|java.lang.String
+   @|net\sci\koifish\lib\Names.java|132|138|String|class|java.lang.String
+   @|net\sci\koifish\lib\Names.java|139|146|EMPATHY|field|net.sci.koifish.lib.Names|EMPATHY|
+Class End  : net.sci.koifish.lib.Names
+endProcessing "net\sci\koifish\lib\Names.java"
+
+startProcessing "net\sci\koifish\world\KoiFishWorldGen.java" md5: 3ee979c2479e867031b6e7fe7814e644
+@|net\sci\koifish\world\KoiFishWorldGen.java|8|29|net.sci.koifish.world|package|net.sci.koifish.world|(file)
+Class Start: net.sci.koifish.world.KoiFishWorldGen
+   @|net\sci\koifish\world\KoiFishWorldGen.java|450|465|KoiFishWorldGen|class|net.sci.koifish.world.KoiFishWorldGen
+   @|net\sci\koifish\world\KoiFishWorldGen.java|477|492|IWorldGenerator|class|net.minecraftforge.fml.common.IWorldGenerator
+   @|net\sci\koifish\world\KoiFishWorldGen.java|496|510|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+   @|net\sci\koifish\world\KoiFishWorldGen.java|496|510|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+   @|net\sci\koifish\world\KoiFishWorldGen.java|511|526|gen_empathy_ore|field|net.sci.koifish.world.KoiFishWorldGen|gen_empathy_ore|
+   @|net\sci\koifish\world\KoiFishWorldGen.java|533|548|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable
+   @|net\sci\koifish\world\KoiFishWorldGen.java|549|558|ModBlocks|class|net.sci.koifish.init.ModBlocks
+   @|net\sci\koifish\world\KoiFishWorldGen.java|559|571|empathyBlock|field|net.sci.koifish.init.ModBlocks|empathyBlock
+   @|net\sci\koifish\world\KoiFishWorldGen.java|572|587|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+   Method Start: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|net\sci\koifish\world\KoiFishWorldGen.java|635|641|random|param|net.sci.koifish.world.KoiFishWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net\sci\koifish\world\KoiFishWorldGen.java|647|653|chunkX|param|net.sci.koifish.world.KoiFishWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|net\sci\koifish\world\KoiFishWorldGen.java|659|665|chunkZ|param|net.sci.koifish.world.KoiFishWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|net\sci\koifish\world\KoiFishWorldGen.java|673|678|world|param|net.sci.koifish.world.KoiFishWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net\sci\koifish\world\KoiFishWorldGen.java|696|710|chunkGenerator|param|net.sci.koifish.world.KoiFishWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkGenerator|4
+      @|net\sci\koifish\world\KoiFishWorldGen.java|730|743|chunkProvider|param|net.sci.koifish.world.KoiFishWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkProvider|5
+      @|net\sci\koifish\world\KoiFishWorldGen.java|597|605|Override|class|java.lang.Override
+      @|net\sci\koifish\world\KoiFishWorldGen.java|619|627|generate|method|net.minecraftforge.fml.common.IWorldGenerator|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|net\sci\koifish\world\KoiFishWorldGen.java|628|634|Random|class|java.util.Random
+      @|net\sci\koifish\world\KoiFishWorldGen.java|667|672|World|class|net.minecraft.world.World
+      @|net\sci\koifish\world\KoiFishWorldGen.java|680|695|IChunkGenerator|class|net.minecraft.world.chunk.IChunkGenerator
+      @|net\sci\koifish\world\KoiFishWorldGen.java|715|729|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider
+      @|net\sci\koifish\world\KoiFishWorldGen.java|756|761|world|param|net.sci.koifish.world.KoiFishWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net\sci\koifish\world\KoiFishWorldGen.java|762|770|provider|field|net.minecraft.world.World|provider
+      @|net\sci\koifish\world\KoiFishWorldGen.java|771|783|getDimension|method|net.minecraft.world.WorldProvider|getDimension|()I
+      @|net\sci\koifish\world\KoiFishWorldGen.java|832|844|runGenerator|method|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|net\sci\koifish\world\KoiFishWorldGen.java|850|865|gen_empathy_ore|field|net.sci.koifish.world.KoiFishWorldGen|gen_empathy_ore
+      @|net\sci\koifish\world\KoiFishWorldGen.java|867|872|world|param|net.sci.koifish.world.KoiFishWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|net\sci\koifish\world\KoiFishWorldGen.java|874|880|random|param|net.sci.koifish.world.KoiFishWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|net\sci\koifish\world\KoiFishWorldGen.java|882|888|chunkX|param|net.sci.koifish.world.KoiFishWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|net\sci\koifish\world\KoiFishWorldGen.java|890|896|chunkZ|param|net.sci.koifish.world.KoiFishWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+   Method End: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+   Method Start: runGenerator(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|net\sci\koifish\world\KoiFishWorldGen.java|992|1001|generator|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|generator|0
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1009|1014|world|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|world|1
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1023|1027|rand|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1033|1040|chunk_X|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_X|3
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1046|1053|chunk_Z|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_Z|4
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1059|1073|chancesToSpawn|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chancesToSpawn|5
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1079|1088|minHeight|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1094|1103|maxHeight|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|net\sci\koifish\world\KoiFishWorldGen.java|964|976|runGenerator|method|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|net\sci\koifish\world\KoiFishWorldGen.java|977|991|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1003|1008|World|class|net.minecraft.world.World
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1016|1022|Random|class|java.util.Random
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1112|1121|minHeight|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1129|1138|maxHeight|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1148|1157|minHeight|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1160|1169|maxHeight|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1186|1210|IllegalArgumentException|class|java.lang.IllegalArgumentException
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1285|1294|maxHeight|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1297|1306|minHeight|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1333|1347|chancesToSpawn|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chancesToSpawn|5
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1367|1374|chunk_X|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_X|3
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1382|1386|rand|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1387|1394|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1411|1420|minHeight|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1423|1427|rand|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1428|1435|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1460|1467|chunk_Z|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_Z|4
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1475|1479|rand|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1480|1487|nextInt|method|java.util.Random|nextInt|(I)I
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1496|1505|generator|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|generator|0
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1506|1514|generate|method|net.minecraft.world.gen.feature.WorldGenerator|generate|(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1515|1520|world|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|world|1
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1522|1526|rand|param|net.sci.koifish.world.KoiFishWorldGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|net\sci\koifish\world\KoiFishWorldGen.java|1532|1540|BlockPos|class|net.minecraft.util.math.BlockPos
+   Method End: runGenerator(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+Class End  : net.sci.koifish.world.KoiFishWorldGen
+endProcessing "net\sci\koifish\world\KoiFishWorldGen.java"
+

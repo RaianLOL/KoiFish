@@ -1,0 +1,6 @@
+{
+  "parent": "koi_fish:block/empathy_ore",
+  "textures": {
+    "layer0": "koi_fish:blocks/empathy_ore"
+  }
+}

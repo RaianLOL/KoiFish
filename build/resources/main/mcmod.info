@@ -1,0 +1,16 @@
+[
+{
+  "modid": "koi_fish",
+  "name": "Koi Fish Mod",
+  "description": "A Mod about Koi Fish.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/RaianLOL/KoiFish",
+  "updateUrl": "",
+  "authorList": ["RaianCenpai"],["Striped_Fern"]
+  "credits": "Brandon Lei for being cancer.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
