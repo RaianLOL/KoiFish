@@ -1,4 +1,4 @@
-package sci.koifish.init;
+package net.sci.koifish.init;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.ItemModelMesher;
@@ -12,9 +12,9 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.common.registry.IForgeRegistryEntry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import sci.koifish.KoiFish;
-import sci.koifish.block.BlockEmpathyOre;
-import sci.koifish.lib.Names;
+import net.sci.koifish.KoiFish;
+import net.sci.koifish.block.BlockEmpathyOre;
+import net.sci.koifish.lib.Names;
 
 public class ModBlocks {
 	
@@ -23,7 +23,7 @@ public class ModBlocks {
 	public static void init() {
 		
 		ResourceLocation location = new ResourceLocation(KoiFish.MOD_ID, Names.EMPATHY_ORE);
-		empathyBlock = new BlockEmpathyOre();
+		empathyBlock = new BlockEmpathyOre(ModItems.empathy, null);
 		empathyBlock.setRegistryName(location);
 		GameRegistry.register(empathyBlock);
 		GameRegistry.register(new ItemBlock(empathyBlock), location);
