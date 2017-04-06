@@ -15,7 +15,7 @@ public class KoiFish {
 
 	public static final String MOD_ID = "koi_fish";
 	public static final String MOD_NAME = "Koi Fish Mod";
-	public static final String VERSION = "@VERSION@";
+	public static final String VERSION = "0.0.1";
 	public static final String DEPENDENCIES = "required-after:forge@[13.20.0.2262,)";
 	public static final String RESOURCE_PREFIX = MOD_ID.toLowerCase() + ":";
 	

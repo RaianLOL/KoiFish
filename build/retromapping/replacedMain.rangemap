@@ -72,7 +72,7 @@ Class Start: net.sci.koifish.CommonProxy
 Class End  : net.sci.koifish.CommonProxy
 endProcessing "net\sci\koifish\CommonProxy.java"
 
-startProcessing "net\sci\koifish\KoiFish.java" md5: a4892342397544e3521295027bfc8a74
+startProcessing "net\sci\koifish\KoiFish.java" md5: b190b89cc2db93d7079df7842501f9c5
 @|net\sci\koifish\KoiFish.java|8|23|net.sci.koifish|package|net.sci.koifish|(file)
 Class Start: net.sci.koifish.KoiFish
    @|net\sci\koifish\KoiFish.java|459|462|Mod|class|net.minecraftforge.fml.common.Mod
@@ -98,55 +98,55 @@ Class Start: net.sci.koifish.KoiFish
    @|net\sci\koifish\KoiFish.java|725|731|String|class|java.lang.String
    @|net\sci\koifish\KoiFish.java|725|731|String|class|java.lang.String
    @|net\sci\koifish\KoiFish.java|732|739|VERSION|field|net.sci.koifish.KoiFish|VERSION|
-   @|net\sci\koifish\KoiFish.java|776|782|String|class|java.lang.String
-   @|net\sci\koifish\KoiFish.java|776|782|String|class|java.lang.String
-   @|net\sci\koifish\KoiFish.java|783|795|DEPENDENCIES|field|net.sci.koifish.KoiFish|DEPENDENCIES|
-   @|net\sci\koifish\KoiFish.java|859|865|String|class|java.lang.String
-   @|net\sci\koifish\KoiFish.java|859|865|String|class|java.lang.String
-   @|net\sci\koifish\KoiFish.java|866|881|RESOURCE_PREFIX|field|net.sci.koifish.KoiFish|RESOURCE_PREFIX|
-   @|net\sci\koifish\KoiFish.java|884|890|MOD_ID|field|net.sci.koifish.KoiFish|MOD_ID
-   @|net\sci\koifish\KoiFish.java|891|902|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
-   @|net\sci\koifish\KoiFish.java|929|935|Random|class|java.util.Random
-   @|net\sci\koifish\KoiFish.java|929|935|Random|class|java.util.Random
-   @|net\sci\koifish\KoiFish.java|936|942|random|field|net.sci.koifish.KoiFish|random|
-   @|net\sci\koifish\KoiFish.java|949|955|Random|class|java.util.Random
-   @|net\sci\koifish\KoiFish.java|995|1002|KoiFish|class|net.sci.koifish.KoiFish
-   @|net\sci\koifish\KoiFish.java|963|971|Instance|class|net.minecraftforge.fml.common.Mod.Instance
-   @|net\sci\koifish\KoiFish.java|972|978|MOD_ID|field|net.sci.koifish.KoiFish|MOD_ID
-   @|net\sci\koifish\KoiFish.java|995|1002|KoiFish|class|net.sci.koifish.KoiFish
-   @|net\sci\koifish\KoiFish.java|1003|1011|instance|field|net.sci.koifish.KoiFish|instance|
-   @|net\sci\koifish\KoiFish.java|1131|1142|CommonProxy|class|net.sci.koifish.CommonProxy
-   @|net\sci\koifish\KoiFish.java|1017|1027|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
-   @|net\sci\koifish\KoiFish.java|1028|1038|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
-   @|net\sci\koifish\KoiFish.java|1072|1082|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
-   @|net\sci\koifish\KoiFish.java|1131|1142|CommonProxy|class|net.sci.koifish.CommonProxy
-   @|net\sci\koifish\KoiFish.java|1143|1148|proxy|field|net.sci.koifish.KoiFish|proxy|
+   @|net\sci\koifish\KoiFish.java|772|778|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|772|778|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|779|791|DEPENDENCIES|field|net.sci.koifish.KoiFish|DEPENDENCIES|
+   @|net\sci\koifish\KoiFish.java|855|861|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|855|861|String|class|java.lang.String
+   @|net\sci\koifish\KoiFish.java|862|877|RESOURCE_PREFIX|field|net.sci.koifish.KoiFish|RESOURCE_PREFIX|
+   @|net\sci\koifish\KoiFish.java|880|886|MOD_ID|field|net.sci.koifish.KoiFish|MOD_ID
+   @|net\sci\koifish\KoiFish.java|887|898|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+   @|net\sci\koifish\KoiFish.java|925|931|Random|class|java.util.Random
+   @|net\sci\koifish\KoiFish.java|925|931|Random|class|java.util.Random
+   @|net\sci\koifish\KoiFish.java|932|938|random|field|net.sci.koifish.KoiFish|random|
+   @|net\sci\koifish\KoiFish.java|945|951|Random|class|java.util.Random
+   @|net\sci\koifish\KoiFish.java|991|998|KoiFish|class|net.sci.koifish.KoiFish
+   @|net\sci\koifish\KoiFish.java|959|967|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|net\sci\koifish\KoiFish.java|968|974|MOD_ID|field|net.sci.koifish.KoiFish|MOD_ID
+   @|net\sci\koifish\KoiFish.java|991|998|KoiFish|class|net.sci.koifish.KoiFish
+   @|net\sci\koifish\KoiFish.java|999|1007|instance|field|net.sci.koifish.KoiFish|instance|
+   @|net\sci\koifish\KoiFish.java|1127|1138|CommonProxy|class|net.sci.koifish.CommonProxy
+   @|net\sci\koifish\KoiFish.java|1013|1023|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|net\sci\koifish\KoiFish.java|1024|1034|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|net\sci\koifish\KoiFish.java|1068|1078|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|net\sci\koifish\KoiFish.java|1127|1138|CommonProxy|class|net.sci.koifish.CommonProxy
+   @|net\sci\koifish\KoiFish.java|1139|1144|proxy|field|net.sci.koifish.KoiFish|proxy|
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|net\sci\koifish\KoiFish.java|1214|1219|event|param|net.sci.koifish.KoiFish|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|net\sci\koifish\KoiFish.java|1154|1166|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|net\sci\koifish\KoiFish.java|1180|1187|preInit|method|net.sci.koifish.KoiFish|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|net\sci\koifish\KoiFish.java|1188|1213|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|net\sci\koifish\KoiFish.java|1228|1233|proxy|field|net.sci.koifish.KoiFish|proxy
-      @|net\sci\koifish\KoiFish.java|1234|1241|preInit|method|net.sci.koifish.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|net\sci\koifish\KoiFish.java|1242|1247|event|param|net.sci.koifish.KoiFish|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\sci\koifish\KoiFish.java|1210|1215|event|param|net.sci.koifish.KoiFish|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\sci\koifish\KoiFish.java|1150|1162|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\sci\koifish\KoiFish.java|1176|1183|preInit|method|net.sci.koifish.KoiFish|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1184|1209|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\sci\koifish\KoiFish.java|1224|1229|proxy|field|net.sci.koifish.KoiFish|proxy
+      @|net\sci\koifish\KoiFish.java|1230|1237|preInit|method|net.sci.koifish.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1238|1243|event|param|net.sci.koifish.KoiFish|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|net\sci\koifish\KoiFish.java|1311|1316|event|param|net.sci.koifish.KoiFish|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|net\sci\koifish\KoiFish.java|1257|1269|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|net\sci\koifish\KoiFish.java|1283|1287|init|method|net.sci.koifish.KoiFish|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|net\sci\koifish\KoiFish.java|1288|1310|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|net\sci\koifish\KoiFish.java|1325|1330|proxy|field|net.sci.koifish.KoiFish|proxy
-      @|net\sci\koifish\KoiFish.java|1331|1335|init|method|net.sci.koifish.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|net\sci\koifish\KoiFish.java|1336|1341|event|param|net.sci.koifish.KoiFish|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\sci\koifish\KoiFish.java|1307|1312|event|param|net.sci.koifish.KoiFish|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\sci\koifish\KoiFish.java|1253|1265|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\sci\koifish\KoiFish.java|1279|1283|init|method|net.sci.koifish.KoiFish|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1284|1306|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\sci\koifish\KoiFish.java|1321|1326|proxy|field|net.sci.koifish.KoiFish|proxy
+      @|net\sci\koifish\KoiFish.java|1327|1331|init|method|net.sci.koifish.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1332|1337|event|param|net.sci.koifish.KoiFish|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|net\sci\koifish\KoiFish.java|1413|1418|event|param|net.sci.koifish.KoiFish|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
-      @|net\sci\koifish\KoiFish.java|1351|1363|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|net\sci\koifish\KoiFish.java|1377|1385|postInit|method|net.sci.koifish.KoiFish|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|net\sci\koifish\KoiFish.java|1386|1412|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
-      @|net\sci\koifish\KoiFish.java|1427|1432|proxy|field|net.sci.koifish.KoiFish|proxy
-      @|net\sci\koifish\KoiFish.java|1433|1441|postInit|method|net.sci.koifish.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|net\sci\koifish\KoiFish.java|1442|1447|event|param|net.sci.koifish.KoiFish|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\sci\koifish\KoiFish.java|1409|1414|event|param|net.sci.koifish.KoiFish|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\sci\koifish\KoiFish.java|1347|1359|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\sci\koifish\KoiFish.java|1373|1381|postInit|method|net.sci.koifish.KoiFish|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1382|1408|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|net\sci\koifish\KoiFish.java|1423|1428|proxy|field|net.sci.koifish.KoiFish|proxy
+      @|net\sci\koifish\KoiFish.java|1429|1437|postInit|method|net.sci.koifish.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\sci\koifish\KoiFish.java|1438|1443|event|param|net.sci.koifish.KoiFish|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
    Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
 Class End  : net.sci.koifish.KoiFish
 endProcessing "net\sci\koifish\KoiFish.java"
